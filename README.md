@@ -1,4 +1,4 @@
-# College Reminders
+# SRM Dues - College Deadline Reminders
 
 A full-stack student deadline manager with class-based access and a local task planner.
 
