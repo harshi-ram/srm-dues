@@ -43,7 +43,7 @@ export default function LoginPage() {
           </button>
         </form>
         <p style={{ marginTop: 16, color: '#6b7280', fontSize: 14 }}>
-          No account? <Link href="/register" style={{ color: '#4f46e5' }}>Register</Link>
+          No account? <Link href="/register" style={{ color: '#129f3a' }}>Register</Link>
         </p>
       </div>
     </div>
@@ -54,5 +54,5 @@ const pageStyle = { minHeight: '100vh', display: 'flex', alignItems: 'center', j
 const cardStyle = { background: '#fff', borderRadius: 12, border: '1px solid #e5e7eb', padding: 32, width: '100%', maxWidth: 400 };
 const formStyle = { display: 'flex', flexDirection: 'column', gap: 12 };
 const inputStyle = { padding: '10px 12px', borderRadius: 6, border: '1px solid #d1d5db', fontSize: 14, outline: 'none' };
-const btnStyle = { padding: '10px 16px', borderRadius: 6, background: '#4f46e5', color: '#fff', border: 'none', cursor: 'pointer', fontSize: 14, fontWeight: 500 };
+const btnStyle = { padding: '10px 16px', borderRadius: 6, background: '#189924', color: '#fff', border: 'none', cursor: 'pointer', fontSize: 14, fontWeight: 500 };
 const errorStyle = { color: '#ef4444', fontSize: 13, margin: '0 0 12px', padding: '8px 12px', background: '#fef2f2', borderRadius: 6 };
