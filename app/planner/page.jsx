@@ -45,7 +45,7 @@ export default function PlannerPage() {
 
       {/* Header */}
       <div style={{ marginBottom: 24 }}>
-        <Link href="/dashboard" style={{ color: '#4f46e5', fontSize: 14, textDecoration: 'none' }}>← Dashboard</Link>
+        <Link href="/dashboard" style={{ color: '#28a113', fontSize: 14, textDecoration: 'none' }}>← Dashboard</Link>
         <h1 style={{ margin: '8px 0 4px', fontSize: 22, fontWeight: 600, color: '#111827' }}>Task planner</h1>
         <p style={{ margin: 0, color: '#6b7280', fontSize: 14 }}>
           Schedules your pending reminders across available days based on effort level.
@@ -84,5 +84,5 @@ export default function PlannerPage() {
 const controlCard = { background: '#fff', border: '1px solid #e5e7eb', borderRadius: 8, padding: 20, marginBottom: 24 };
 const labelStyle = { display: 'flex', flexDirection: 'column', fontSize: 13, fontWeight: 500, color: '#374151' };
 const inputStyle = { padding: '9px 12px', borderRadius: 6, border: '1px solid #d1d5db', fontSize: 14 };
-const btnStyle = { padding: '9px 20px', borderRadius: 6, background: '#4f46e5', color: '#fff', border: 'none', cursor: 'pointer', fontSize: 14, fontWeight: 500, alignSelf: 'flex-end' };
+const btnStyle = { padding: '9px 20px', borderRadius: 6, background: '#24a219', color: '#fff', border: 'none', cursor: 'pointer', fontSize: 14, fontWeight: 500, alignSelf: 'flex-end' };
 const errorStyle = { color: '#ef4444', fontSize: 13, margin: '12px 0 0', padding: '8px 12px', background: '#fef2f2', borderRadius: 6 };
