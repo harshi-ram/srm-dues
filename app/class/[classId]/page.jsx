@@ -57,7 +57,7 @@ export default function ClassPage() {
 
       {/* Header */}
       <div style={{ marginBottom: 24 }}>
-        <Link href="/dashboard" style={{ color: '#4f46e5', fontSize: 14, textDecoration: 'none' }}>← Dashboard</Link>
+        <Link href="/dashboard" style={{ color: '#139545', fontSize: 14, textDecoration: 'none' }}>← Dashboard</Link>
         <h1 style={{ margin: '8px 0 0', fontSize: 22, fontWeight: 600, color: '#111827' }}>Class reminders</h1>
       </div>
 
@@ -108,5 +108,5 @@ export default function ClassPage() {
 
 const formCard = { background: '#fff', border: '1px solid #e5e7eb', borderRadius: 8, padding: 16, marginBottom: 20 };
 const inputStyle = { padding: '9px 12px', borderRadius: 6, border: '1px solid #d1d5db', fontSize: 14 };
-const btnStyle = { padding: '9px 16px', borderRadius: 6, background: '#4f46e5', color: '#fff', border: 'none', cursor: 'pointer', fontSize: 14, fontWeight: 500 };
+const btnStyle = { padding: '9px 16px', borderRadius: 6, background: '#119511', color: '#fff', border: 'none', cursor: 'pointer', fontSize: 14, fontWeight: 500 };
 const errorStyle = { color: '#ef4444', fontSize: 13, margin: '8px 0 0', padding: '8px 12px', background: '#fef2f2', borderRadius: 6 };
