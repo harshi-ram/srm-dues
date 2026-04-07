@@ -39,16 +39,36 @@ export default function DashboardPage() {
     <div style={{ maxWidth: 720, margin: '0 auto', padding: '32px 16px' }}>
 
       {/* Header */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 32 }}>
-        <div>
-          <h1 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: '#111827' }}>SRM Dues</h1>
-          <p style={{ margin: '4px 0 0', color: '#6b7280', fontSize: 14 }}>Welcome back, {user.name}</p>
-        </div>
-        <div style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
-          <Link href="/planner" style={linkBtnStyle}>Task Planner</Link>
-          <button onClick={logout} style={ghostBtn}>Logout</button>
-        </div>
-      </div>
+<div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 32 }}>
+  
+  {/* LEFT: Logo + Title */}
+  <div style={{ display: 'flex', alignItems: 'center', gap: 10 }}>
+    
+    {/* Logo Image */}
+    <img 
+      src="/logo.png" 
+      alt="logo" 
+      style={{ width: 36, height: 36, objectFit: 'contain' }}
+    />
+
+    <div>
+      <h1 style={{ margin: 0, fontSize: 24, fontWeight: 600, color: '#16a34a' }}>
+        SRM Dues
+      </h1>
+      <p style={{ margin: '4px 0 0', color: '#6b7280', fontSize: 14 }}>
+        Welcome back, {user.name}
+      </p>
+    </div>
+
+  </div>
+
+  {/* RIGHT: Actions */}
+  <div style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
+    <Link href="/planner" style={linkBtnStyle}>Task Planner</Link>
+    <button onClick={logout} style={ghostBtn}>Logout</button>
+  </div>
+
+</div>
 
       {/* Classes */}
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 12 }}>
@@ -109,6 +129,6 @@ const emptyCard = {
   padding: '24px 16px', textAlign: 'center', marginBottom: 8,
 };
 const inputStyle = { padding: '9px 12px', borderRadius: 6, border: '1px solid #d1d5db', fontSize: 14, flex: 1, minWidth: 160 };
-const btnStyle = { padding: '9px 16px', borderRadius: 6, background: '#4f46e5', color: '#fff', border: 'none', cursor: 'pointer', fontSize: 14, fontWeight: 500, whiteSpace: 'nowrap' };
+const btnStyle = { padding: '9px 16px', borderRadius: 6, background: '#13c32d', color: '#fff', border: 'none', cursor: 'pointer', fontSize: 14, fontWeight: 500, whiteSpace: 'nowrap' };
 const ghostBtn = { padding: '9px 16px', borderRadius: 6, background: 'transparent', color: '#374151', border: '1px solid #d1d5db', cursor: 'pointer', fontSize: 14, whiteSpace: 'nowrap' };
-const linkBtnStyle = { padding: '9px 16px', borderRadius: 6, background: '#ede9fe', color: '#4f46e5', fontSize: 14, fontWeight: 500, textDecoration: 'none', whiteSpace: 'nowrap' };
+const linkBtnStyle = { padding: '9px 16px', borderRadius: 6, background: '#ede9fe', color: '#17a033', fontSize: 14, fontWeight: 500, textDecoration: 'none', whiteSpace: 'nowrap' };
